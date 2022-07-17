@@ -28,7 +28,7 @@ const LatestPostCard = () => {
   return (
     <section className={style.container}>
       {info.map((item, index) => (
-        <section>
+        <section key={index}>
           <div className={style.img_wrapper}>
             <img src={item.image} alt="post-img" />
           </div>
