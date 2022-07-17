@@ -1,4 +1,4 @@
-import gym from "../../images/gym.jfif";
+import gym from "../../images/logo.png";
 import { RiMenu3Line } from "react-icons/ri";
 import { RiCloseFill } from "react-icons/ri";
 import { useState } from "react";
@@ -16,8 +16,8 @@ const NavBar = ({ home, fitness, nutrition, keto }) => {
       "px-5 flex justify-between items-center md:px16 lg:px-24 text-[1.6rem]",
     icon_wrapper: "lg:hidden",
     icon: "text-5xl cursor-pointer font-bold",
-    img: "h-[35px] w-[35px]",
-    link: "cursor-pointer hover:text-[#f24b88]",
+    img: "h-[35px] w-[35px] bg-black",
+    link: "cursor-pointer hover:text-[#f24b88] font-bold text-3xl",
     nav: `${
       showMenu ? "translate-x-0" : "translate-x-[-100%]"
     } transform  absolute flex flex-col gap-10 top-0 bg-[#1f1c26] text-white w-[50%] pl-22 left-0 p-12 pt-36 transition sm:pl-10 lg:translate-x-0 lg:relative lg:flex-row lg:bg-transparent lg:w-auto lg:items-center lg:text-center lg:p-0 lg:pt-0 lg:h-0 h-[100vh]`,

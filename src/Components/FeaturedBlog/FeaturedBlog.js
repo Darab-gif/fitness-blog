@@ -1,7 +1,6 @@
 import style from "./featureblog.module.css";
-const { default: BigCard } = require("./BigCard/BigCard");
-const { default: SmallCard } = require("./SmallCard/SmallCard");
-
+import BigCard from "./BigCard/BigCard";
+import SmallCard from "./SmallCard/SmallCard";
 const FeaturedBlog = () => {
   return (
     <section className={style.featured_container}>
