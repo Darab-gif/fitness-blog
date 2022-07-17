@@ -1,0 +1,44 @@
+.commentBox_container {
+  margin-top: 2rem;
+}
+
+.commentBox_container > input,
+.commentBox_container > textarea {
+  border: 0.1rem solid rgba(51, 47, 60, 1);
+  background-color: transparent;
+  padding: 1.5rem;
+  outline: none;
+  width: 100%;
+  border-radius: 1rem;
+  color: var(--secondary-text);
+}
+
+.commentBox_container > input {
+  margin-bottom: 3rem;
+}
+
+.commentBox_container > textarea:focus,
+.commentBox_container > input:focus {
+  border: 0.1rem solid var(--accent-color);
+}
+
+.commentBox_container > button {
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.cancel_Btn {
+  text-transform: uppercase;
+  transition: color ease-in-out 0.3s;
+}
+
+.cancel_Btn:hover {
+  color: var(--secondary-text);
+}
+
+@media screen and (min-width: 768px) {
+  .commentBox_container > input {
+    width: 50%;
+  }
+}

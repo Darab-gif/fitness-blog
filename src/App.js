@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Components/Footer/Footer";
+import NavBar from "./Components/Navbar/NavBar";
+import Home from "./Pages/Home/Home";
 
 function App() {
+  /*const style = {
+    wrapper:
+      "text-white bg-body font-poppins selection:bg-nav selection:text-white w-[1440px] max-w-[100%] m-auto",
+  };*/
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <NavBar />
+      <Home />
+      <Footer />
     </div>
   );
 }

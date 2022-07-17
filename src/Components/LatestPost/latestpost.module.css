@@ -1,0 +1,10 @@
+.container {
+  padding-inline: var(--outter-padding);
+  padding-block: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 15rem;
+  }
+}

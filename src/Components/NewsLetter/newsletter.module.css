@@ -1,0 +1,70 @@
+.form_container {
+  background-color: rgba(51, 47, 60, 1);
+  margin-inline: var(--outter-padding);
+  margin-block: 5rem;
+  padding-inline: 1.5rem;
+  padding-block: clamp(1.5rem, 5vw, 10rem);
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+.form_container > h3 {
+  font-weight: 600;
+  font-size: clamp(2.4rem, 5vw, 4.8rem);
+  line-height: clamp(3.6rem, 5vw, 7.2rem);
+  letter-spacing: 0.215em;
+  text-transform: uppercase;
+}
+
+.form_container > p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-block: 1rem;
+}
+
+.form_container > p > br {
+  display: none;
+}
+
+.form_wrapper {
+  height: 5rem;
+  margin-block: clamp(1.5rem, 5vw, 2rem);
+}
+
+.form_wrapper > input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding-inline: 1rem;
+}
+
+.form_wrapper > input:focus {
+  border: 2px solid var(--accent-color);
+}
+
+.form_container > button {
+  padding-inline: clamp(1.3rem, 5vw, 2.5rem);
+  padding-block: clamp(1rem, 4vw, 2rem);
+  border-radius: 0.5rem;
+}
+
+.form_container > button::after {
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .form_container {
+    margin-top: 10rem;
+  }
+
+  .form_wrapper > input {
+    width: 50%;
+  }
+
+  .form_container > p > br {
+    display: block;
+  }
+}
