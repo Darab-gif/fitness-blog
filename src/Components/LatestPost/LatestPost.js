@@ -1,14 +1,17 @@
-import BlogPost from "../BlogPost/BlogPost";
 import HeadCategory from "../Head_category/HeadCategory";
+import LatestPostCard from "./LatestPostCard/LatestPost";
 import style from "./latestpost.module.css";
 
 const LatestPost = () => {
-  const items = [1, 2, 3];
   return (
     <section className={style.container}>
-      <HeadCategory title="Latest Posts" />
+      <HeadCategory title="Latest Post" />
 
-      <BlogPost data={items} />
+      <div className={style.post_list}>
+        <LatestPostCard />
+        <LatestPostCard />
+        <LatestPostCard />
+      </div>
     </section>
   );
 };

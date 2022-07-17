@@ -1,0 +1,60 @@
+.img_wrapper {
+  margin-top: 0.5rem;
+}
+.img_wrapper > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.details_container {
+  padding: 1.5rem;
+}
+
+.details_container > h5 {
+  font-size: 1.8rem;
+  color: var(--secondary-text);
+  padding-top: 1rem;
+}
+
+.details_container > p {
+  color: var(--secondary-text);
+  font-size: 1.4rem;
+  padding-block: 0.5rem;
+  padding-top: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.details_container > button {
+  margin-top: 5rem;
+  margin-left: auto;
+  padding: 1.3rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.details_container > button::after {
+  z-index: 1;
+}
+
+/*.img_wrapper > img {
+  width: 30%;
+  height: 30%;
+  margin-top: 5rem;
+}
+
+.details_wrapper > h5 {
+  font-size: 1.8rem;
+  color: var(--secondary-text);
+  padding-top: 1rem;
+}
+
+.details_wrapper > p {
+  font-size: 1.4rem;
+  padding-block: 0.5rem;
+}
+
+.details_wrapper > button {
+  padding: 1.2rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}*/

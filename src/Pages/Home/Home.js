@@ -1,13 +1,13 @@
 import EditorPost from "../../Components/EditorPost/EditorPost";
 import FeaturedBlog from "../../Components/FeaturedBlog/FeaturedBlog";
-//import LatestPost from "../../Components/LatestPost/LatestPost";
+import LatestPost from "../../Components/LatestPost/LatestPost";
 import NewsLetter from "../../Components/NewsLetter/NewsLetter";
 
 const Home = () => {
   return (
-    <section>
+    <section className="mt-[12rem]">
       <FeaturedBlog />
-      {/*<LatestPost />*/}
+      <LatestPost />
       <EditorPost />
       <NewsLetter />
     </section>

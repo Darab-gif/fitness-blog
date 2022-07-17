@@ -2,7 +2,9 @@
   background-color: var(--secondary-text);
   color: rgba(13, 13, 13, 1);
 }
-
+.img_wrapper {
+  margin-top: 0.5rem;
+}
 .img_wrapper > img {
   width: 100%;
   object-fit: cover;

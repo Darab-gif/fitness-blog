@@ -1,5 +1,5 @@
 import style from "./bigcard.module.css";
-import img from "../../../images/fitness.jfif";
+import img from "../../../images/fitness3.jpg";
 import Button from "../../Button/Button";
 const BigCard = () => {
   return (
