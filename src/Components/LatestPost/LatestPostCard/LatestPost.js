@@ -24,7 +24,10 @@ const info = [
 ];
 
 const LatestPostCard = () => {
-  const handleClick = () => {};
+  // let navigate=useNavigate();
+  const handleClick = () => {
+    // navigate('/')
+  };
   return (
     <section className={style.container}>
       {info.map((item, index) => (
